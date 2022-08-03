@@ -1,0 +1,14 @@
+DataGridView - DGV
+
+strSql = "Select"
+
+ Precisa desses dois SqlDataAdapter DataTable para um Grid
+
+String idCLicado
+idCLicacado = Convet.ToString(gfvAlimentos.Rows[e.RowIndex].Cells[0].value);
+
+Rows ( a Linha q vc seleciona)
+Cells (a PK do banco (id))
+
+SqlDataReader dr
+
